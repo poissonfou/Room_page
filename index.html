@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+    <header class="header">
+        <nav class="nav nav--desktop">
+            <img src="images/logo.svg" alt="logo">
+            <ul class="nav__links">
+                <li class="nav__link">home</li>
+                <li class="nav__link">shop</li>
+                <li class="nav__link">about</li>
+                <li class="nav__link">contact</li>
+            </ul>
+        </nav>
+        <div class="header__mobile__content">
+            <img class="menu__icon" src="images/icon-hamburger.svg" alt="menu icon" id="menu__icon">
+            <img class="logo" src="images/logo.svg" alt="logo">
+        </div>
+        <nav class="nav nav--mobile" id="nav__mobile">
+            <img class="icon__close" src="images/icon-close.svg" alt="logo" id="close__icon">
+            <ul class="nav__links">
+                <li class="nav__link">home</li>
+                <li class="nav__link">shop</li>
+                <li class="nav__link">about</li>
+                <li class="nav__link">contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="main__imgs" id="img__carrousel">
+            <div class="imgs__container" id="imgs__container">
+                <img class="main__img main__img--desktop" src="images/desktop-image-hero-1.jpg" alt="image carrousel">
+                <img class="main__img main__img--desktop" src="images/desktop-image-hero-2.jpg" alt="image carrousel">
+                <img class="main__img main__img--desktop" src="images/desktop-image-hero-3.jpg" alt="image carrousel">
+                <img class="main__img main__img--mobile" src="images/mobile-image-hero-1.jpg" alt="image carrousel">
+                <img class="main__img main__img--mobile" src="images/mobile-image-hero-2.jpg" alt="image carrousel">
+                <img class="main__img main__img--mobile" src="images/mobile-image-hero-3.jpg" alt="image carrousel">
+            </div>
+            <div class="main__btnscarrousel main__btnscarrousel--mobile">
+                <div class="main__btncarrousel__left" id="left__btn--mobile"></div>
+                <div class="main__btncarrousel__right" id="right__btn--mobile"></div>
+            </div>
+        </section>
+        <section class="main__txtcontent">
+            <div class="main__btnscarrousel main__btnscarrousel--desktop">
+                <div class="main__btncarrousel__left" id="left__btn--desktop"></div>
+                <div class="main__btncarrousel__right" id="right__btn--desktop"></div>
+            </div>
+            <h1 class="main__title">Discover innovative ways to decorate</h1>
+            <p class="main__text">We provide unmatched quality, comfort, and style for property owners across the
+                country. Our experts
+                combine form and functionin bringing your vision to life. Create a room in your own style with our
+                collection
+                and make your property a reflection of you and what you love.
+            </p>
+            <div class="main__btnshop">
+                <p class="main__btnshop__text">Shop now</p>
+                <img class="main__btnshop__arrow" src="images/icon-arrow.svg" alt="arrow">
+            </div>
+        </section>
+    </main>
+
+    <div class="about">
+        <img src="images/image-about-dark.jpg" alt="">
+        <div class="about__content">
+            <h1 class="about__content__title">About our furniture</h1>
+            <p class="about__content__text">Our multifunctional collection blends design and function to suit your
+                individual taste. Make each room
+                unique, or pick a cohesive theme that best express your
+                interests and what inspires you. Find the furniture pieces you need, from traditional to comtemporary
+                styles or anything in between. Product specialists are available
+                to help create your dream space.
+
+            </p>
+        </div>
+        <img src="images/image-about-light.jpg" alt="">
+    </div>
+</body>
+
+</html>
